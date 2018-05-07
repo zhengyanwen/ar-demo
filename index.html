@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#cf3a3f">
+  <title>AR 2017</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <div class="phone">
+    <div class="container">
+      <div class="title">AR</div>
+      <a class="btn" href="play.html" onClick="checkBrowser()">扫码</a>
+      <a class="btn" href="code.html">AR 码</a>
+    </div>
+  </div>
+</body>
+<script>
+  function checkBrowser(e) {
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if (!isAndroid) {
+      alert('该功能仅在 Android 上可用');
+      window.event.preventDefault();
+      return false;
+    }
+  }
+</script>
+
+</html>
