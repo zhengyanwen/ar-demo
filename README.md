@@ -7,6 +7,11 @@ Because there are bugs in the original project that cannot be run, this is the v
 
 因为原项目有bug无法运行，这个是解决以后可以看到效果的版本，用“扫码”去扫“AR码”可看到跳舞的小女孩
 
+
+# demo 演示
+https://zhengyanwen.github.io/ar-demo/
+
+
 # SceenShot
 
 ![preview](screenshot.png)
