@@ -1,7 +1,11 @@
-# ar-demo-mobile-browser
+# ar-demo
 A AR demo on mobile browser(Android yet) powered by JavaScript
 
-Access at: https://codefalling.github.io/ar-demo-mobile-browser
+这是一个手机浏览器运行的AR例子
+
+Because there are bugs in the original project that cannot be run, this is the version that can be seen later，Scan the "AR code" to see the dancing girl.
+
+因为原项目有bug无法运行，这个是解决以后可以看到效果的版本，用“扫码”去扫“AR码”可看到跳舞的小女孩
 
 # SceenShot
 
