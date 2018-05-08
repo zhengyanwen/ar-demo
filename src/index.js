@@ -223,8 +223,8 @@ window.onload = function () {
 
     // const modelFile = './src/miku_v2.pmd';
     // const vmdFiles = [ './src/wavefile_v2.vmd' ];
-    const modelFile = 'http://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
-    const vmdFiles = ['http://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/vmds/wavefile_v2.vmd'];
+    const modelFile = 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
+    const vmdFiles = ['https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/vmds/wavefile_v2.vmd'];
 
     const helper = new THREE.MMDHelper();
     const loader = new THREE.MMDLoader();
